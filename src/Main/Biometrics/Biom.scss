@@ -1,0 +1,178 @@
+@media (max-width: 765px) {
+        
+    .biometric {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+    }
+    .biometric-container {
+        max-width: 1725px;
+        width: 1725px;
+        display: flex;
+        flex-direction: column;
+        
+
+        .biometric-img-cont {
+            order: 2;
+            // flex: 50%;
+
+            .img-cont {
+                border-radius: 35px;
+                background: var(--img-bg);
+                height: 350px;
+                flex-shrink: 0;
+            }
+        }
+        .biometric-texts-cont {
+            // flex: 50%;
+            text-align: center;
+
+            .text-header {
+                display: flex;
+                color: var(--brownlish-color);
+                font-family: Satoshi Variable;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+                justify-content: center;
+
+                .svg {
+                    display: flex;
+                    align-items: center;
+                }
+            }
+
+            
+            .text-bold-header {
+                color: var(--absolute-dark-color);
+                font-family: Satoshi Variable;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+
+            .text-light-header {
+                color: var(--texts-color);
+                font-family: Satoshi Variable;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            .link-cont {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 10px;
+                a {
+                    display: flex;
+                    text-decoration: none;
+                    color: var(--absolute-dark-color);
+                    font-family: Satoshi Variable;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: normal;
+
+                    div {
+                        display: flex;
+                        justify-content: center;
+                    }
+                }
+            }
+            
+        }
+
+    }
+}
+
+@media (min-width: 766px) {
+        
+    .biometric {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+    }
+    .biometric-container {
+        max-width: 1725px;
+        width: 1725px;
+        display: flex;
+        align-items: center;
+        
+
+        .biometric-img-cont {
+            flex: 50%;
+
+            .img-cont {
+                border-radius: 35px;
+                background: var(--img-bg);
+                height: 350px;
+                flex-shrink: 0;
+            }
+        }
+        .biometric-texts-cont {
+            flex: 50%;
+            padding: 20px;
+
+            .text-header {
+                display: flex;
+                color: var(--brownlish-color);
+                font-family: Satoshi Variable;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+
+                .svg {
+                    display: flex;
+                    align-items: center;
+                }
+            }
+
+            
+            .text-bold-header {
+                color: var(--absolute-dark-color);
+                font-family: Satoshi Variable;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+
+            .text-light-header {
+                color: var(--texts-color);
+                font-family: Satoshi Variable;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            .link-cont {
+                display: flex;
+                margin-bottom: 10px;
+                a {
+                    display: flex;
+                    text-decoration: none;
+                    color: var(--absolute-dark-color);
+                    font-family: Satoshi Variable;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: normal;
+
+                    div {
+                        display: flex;
+                        justify-content: center;
+                    }
+                }
+            }
+            
+        }
+
+    }
+}

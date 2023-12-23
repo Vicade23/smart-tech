@@ -1,0 +1,363 @@
+@media (max-width: 765px) {
+        
+    .offer-container {
+        background-color: var(--absolute-light-color);
+
+        .offer-text-container {
+            display: flex;
+            // justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px;
+
+            h1 {
+                color: #6C060D;
+                font-family: Satoshi Variable;
+                font-size: 33px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                max-width: 500px;
+                text-align: center;
+                padding-bottom: 15px;
+            }
+
+            h5 {
+                color: #686868;
+                text-align: center;
+                font-family: Satoshi Variable;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 400;
+                max-width: 500px;
+                line-height: normal;
+            }
+
+        }
+        
+        .offer-img-main-container {
+            padding: 0 40px;
+                
+            .offer-img-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                max-width: 1726px;
+                margin: auto;
+                align-items: center;
+
+                .img-container {
+                    order: 2;
+                    .frame1, .frame3 {
+                        display: none;
+                    }
+                    .frame2 {
+                        display: block;
+                    }
+                }
+
+                .texts-container {
+                    text-align: center;
+                    margin-top: 80px;
+
+                    .text-header {
+                        color: #6C060D;
+                        font-family: Satoshi Variable;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 900;
+                        line-height: normal;
+                        display: flex;
+                        justify-content: center;
+
+                        div {
+                            display: flex;
+                            align-items: center;
+                            padding-right: 10px;
+                        }
+                    }
+                    
+                    .text-bold-header {
+                        color: var(--absolute-dark-color);
+                        font-family: Satoshi Variable;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+
+                    .text-light-header {
+                        color: var(--texts-color);
+                        font-family: Satoshi Variable;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+
+                    .learn-more-link-container {
+                        margin-top: 10px;
+                        text-align: center;
+                        display: flex;
+                        justify-content: center;
+                        margin-bottom: 40px;
+                        a {
+                            text-decoration: none;
+                            font-weight: 900;
+                            display: flex;
+                            color: var(--absolute-dark-color);
+                            
+                            div {
+                                margin-left: 10px;
+                                font-weight: 900;
+                                display: flex;
+                                align-items: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 766px) {
+        
+    .offer-container {
+        background-color: var(--absolute-light-color);
+
+        .offer-text-container {
+            display: flex;
+            // justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px;
+
+            h1 {
+                color: #6C060D;
+                font-family: Satoshi Variable;
+                font-size: 33px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                max-width: 500px;
+                text-align: center;
+                padding-bottom: 15px;
+            }
+
+            h5 {
+                color: #686868;
+                text-align: center;
+                font-family: Satoshi Variable;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 400;
+                max-width: 500px;
+                line-height: normal;
+            }
+
+        }
+        
+        .offer-img-main-container {
+            padding: 0 50px;
+                
+            .offer-img-container {
+                display: flex;
+                max-width: 1726px;
+                margin: auto;
+                align-items: center;
+
+                .img-container {
+                    flex: 50%;
+                    .frame1, .frame2 {
+                        display: none;
+                    }
+                    .frame3 {
+                        display: block;
+                    }
+                }
+                .texts-container {
+                    flex: 50%;
+
+                    .text-header {
+                        color: #6C060D;
+                        font-family: Satoshi Variable;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 900;
+                        line-height: normal;
+                        display: flex;
+
+                        div {
+                            display: flex;
+                            align-items: center;
+                            padding-right: 10px;
+                        }
+                    }
+                    
+                    .text-bold-header {
+                        color: var(--absolute-dark-color);
+                        font-family: Satoshi Variable;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+
+                    .text-light-header {
+                        color: var(--texts-color);
+                        font-family: Satoshi Variable;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    } 
+
+                    .learn-more-link-container {
+                        margin-top: 10px;
+                        a {
+                            text-decoration: none;
+                            font-weight: 900;
+                            display: flex;
+                            color: var(--absolute-dark-color);
+                            
+                            div {
+                                margin-left: 10px;
+                                font-weight: 900;
+                                display: flex;
+                                align-items: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1025px) {
+    
+    .offer-container {
+        background-color: var(--absolute-light-color);
+
+        .offer-text-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px;
+
+            h1 {
+                color: #6C060D;
+                font-family: Satoshi Variable;
+                font-size: 33px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                max-width: 500px;
+                text-align: center;
+                padding-bottom: 15px;
+            }
+
+            h5 {
+                color: #686868;
+                text-align: center;
+                font-family: Satoshi Variable;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 400;
+                max-width: 500px;
+                line-height: normal;
+            }
+
+        }
+        
+        .offer-img-main-container {
+            padding: 0 50px;
+                
+            .offer-img-container {
+                display: flex;
+                max-width: 1726px;
+                margin: auto;
+                align-items: center;
+
+                .img-container {
+                    flex: 50%;
+                    position: relative;
+                    display: block;
+                    height: 600px;
+                    overflow: hidden;
+
+                    .frame1, .frame2, .frame3 {
+                        display: block;
+                        position: absolute;
+                    }
+
+                    .frame3 {
+                        bottom: -20px;
+                        left: -60px;
+                    }
+                    .frame2 {
+                        bottom: -20px;
+                        right: -100px;
+                    }
+
+                }
+                .texts-container {
+                    flex: 50%;
+                    padding: 40px;
+
+                    .text-header {
+                        color: #6C060D;
+                        font-family: Satoshi Variable;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 900;
+                        line-height: normal;
+                        display: flex;
+
+                        div {
+                            display: flex;
+                            align-items: center;
+                            padding-right: 10px;
+                        }
+                    }
+                    
+                    .text-bold-header {
+                        color: var(--absolute-dark-color);
+                        font-family: Satoshi Variable;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+
+                    .text-light-header {
+                        color: var(--texts-color);
+                        font-family: Satoshi Variable;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+
+                    .learn-more-link-container {
+                        margin-top: 10px;
+                        a {
+                            text-decoration: none;
+                            font-weight: 900;
+                            display: flex;
+                            color: var(--absolute-dark-color);
+                            
+                            div {
+                                margin-left: 10px;
+                                font-weight: 900;
+                                display: flex;
+                                align-items: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

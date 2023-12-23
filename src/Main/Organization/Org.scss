@@ -1,0 +1,128 @@
+@media (max-width: 765px) {
+    .org-container {
+        background-color: var(--greyish-bg-color);
+        padding: 40px 0;
+
+        .org-bold-text {
+            color: var(--absolute-dark-color);
+            font-family: Satoshi Variable;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-align: center;
+            padding: 10px 40px;
+
+            span {
+                color: var(--brownlish-color);
+                font-family: Satoshi Variable;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+        .org-light-text {
+            color: var(--absolute-dark-color);
+            text-align: center;
+            font-family: Satoshi Variable;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            padding: 0 40px;
+            line-height: normal;
+        }
+
+        .org-img-main-container {
+            display: none;
+        }
+
+        .org-img-alt {
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+
+            .org-btn {
+                display: flex;
+                width: 240px;
+                height: 52px;
+                font-size: 15px;
+                letter-spacing: 1px;
+                padding: 15.692px 57.536px;
+                justify-content: center;
+                align-items: center;
+                gap: 10.461px;
+                border-radius: 50px;
+                background: #FFF;
+                border: 0;
+                transition: .3s ease;
+
+                &:hover {
+                    background-color: var(--text-hover-color);
+                    color: var(--absolute-light-color);
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 766px) {
+      
+    .org-container {
+        background-color: var(--greyish-bg-color);
+        padding: 40px 0;
+
+        .org-bold-text {
+            color: var(--absolute-dark-color);
+            font-family: Satoshi Variable;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-align: center;
+            padding: 10px 40px;
+
+            span {
+                color: var(--brownlish-color);
+                font-family: Satoshi Variable;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+        .org-light-text {
+            color: var(--absolute-dark-color);
+            text-align: center;
+            font-family: Satoshi Variable;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            padding: 0 40px;
+            line-height: normal;
+        }
+
+        .org-img-alt {
+            display: none;
+        }
+
+        .org-img-main-container {
+            padding-top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+    
+            .org-img-container {
+                display: flex;
+                // height: 90px;
+                justify-content: space-around;
+                max-width: 620px;
+                align-items: center;
+                width: 620px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    
+}

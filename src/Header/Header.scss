@@ -1,0 +1,36 @@
+@media (max-width: 765px) {
+        
+    header {
+        display: flex;
+        .header-inner-container {
+            width: 100%;
+            height: 100vh;
+            max-width: 1728px;
+            margin: auto;
+            background: url(../images/Texture.png), var(--absolute-light-color) 0% 0% / 60.90909242630005px 60.90909242630005px repeat;
+            flex-shrink: 0;
+        }
+
+        .header-inner-container2 {
+            height: calc(100vh + 100px);
+        }
+    }
+}
+
+@media (min-width: 766px) {   
+    header {
+        display: flex;
+        .header-inner-container {
+            width: 100%;
+            height: calc(800px);
+            max-width: 1728px;
+            margin: auto;
+            background: url(../images/Texture.png), var(--absolute-light-color) 0% 0% / 60.90909242630005px 60.90909242630005px repeat;
+            flex-shrink: 0;
+        }
+
+        .header-inner-container2 {
+            height: calc(800px);
+        }
+    }
+}
